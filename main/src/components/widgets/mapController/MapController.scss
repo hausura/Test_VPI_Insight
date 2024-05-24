@@ -1,0 +1,13 @@
+.mapboxgl-ctrl-bottom-left {
+    padding-left: 10px !important;
+    bottom: 0px !important;
+
+    // left: 8px !important;
+}
+
+// | "gl-draw-point-point-stroke-inactive";
+@media not all and (min-width: 768px) {
+    .mapboxgl-ctrl-bottom-left {
+        padding-left: 0px !important;
+    }
+}

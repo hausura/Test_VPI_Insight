@@ -1,0 +1,76 @@
+.contaniner {
+
+    &.hidden_container {
+        width: 0;
+        height: 0;
+    }
+}
+
+.box {
+    &.fullbox {
+        display: block;
+
+        // animation: close 1s;
+        &.hide {
+            animation: close 0.5s forwards;
+            animation-timing-function: ease-out;
+            // display: none;
+        }
+
+        &.open {
+            display: block;
+            animation: open1 0.5s forwards;
+            animation-timing-function: ease-in;
+        }
+    }
+
+    &.hide {
+        animation: close 0.5s forwards;
+        animation-timing-function: ease-out;
+    }
+
+    &.open {
+        animation: open1 0.5s forwards;
+        animation-timing-function: ease-in;
+    }
+}
+
+.message_container {
+
+    scrollbar-width: thin;
+    -ms-overflow-style: none;
+}
+
+@keyframes open1 {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+        transform-origin: 100% 100%;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+        transform-origin: 100% 100%;
+    }
+}
+
+@keyframes close {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+        transform-origin: 100% 100%;
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+        transform-origin: 100% 100%;
+    }
+}
+
+@keyframes showAnimation {
+    to {
+        display: none;
+    }
+}

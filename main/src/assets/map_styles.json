@@ -1,0 +1,22 @@
+{
+    "street-v12": {
+        "styles": "mapbox://styles/mapbox/streets-v12",
+        "boudary_color": "black",
+        "layer_image": ""
+    },
+    "outdoors-v12": {
+        "styles": "mapbox://styles/mapbox/outdoors-v12",
+        "boudary_color": "black",
+        "layer_image": ""
+    },
+    "satellite-streets-v12": {
+        "styles": "mapbox://styles/mapbox/satellite-streets-v12",
+        "boudary_color": "black",
+        "layer_image": ""
+    },
+    "satellite-v9": {
+        "styles": "mapbox://styles/mapbox/satellite-v9",
+        "boudary_color": "yellow",
+        "layer_image": ""
+    }
+}
